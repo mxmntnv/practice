@@ -167,7 +167,7 @@ ul.second {
 
 .rtcl {
 	display: flex;
-	align-items: left;
+	align-items: start;
 	flex-direction: column;
 	background-color: #1C162E;
 	height: 397px;
@@ -315,6 +315,4 @@ footer {
 	justify-content: center;
 }
 
-Something {
-	/*height: auto;*/
-}
+
