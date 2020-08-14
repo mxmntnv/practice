@@ -2,68 +2,82 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="a2games.css">
+    <link rel="stylesheet" href="practice.css">
     <title>A2 Games</title>
 </head>
 
 <body>
 <header>
-    <nav class = "inHeader">
-        <img src="D:\Notepad++/a2games/logoA2g.png" alt="альтернативный текст" class="logo">
+    <nav class = "header-nav">
+        <img src="Pictures/logoA2g.png" alt="альтернативный текст" class="logo">
         <ul class="first">
             <li><a href="#">STORE</a></li>
             <li><a href="#">NEWS</a></li>
             <li><a href="#">FAQ</a></li>
         </ul>
         <div class = "lang_log">
-            <img src="D:\Notepad++/a2games/language.png" alt="альтернативный текст" class="lang">
-            <p style = "color: #ffffff; padding-left: 5px;">English</p>
-            <img src="D:\Notepad++/a2games/down-arrow.png" alt="альтернативный текст" class="arrow">
-            <img src="D:\Notepad++/a2games/login.png" alt="альтернативный текст" class="login">
-            <p style = "color: #ffffff; padding-left: 5px;">Login</p>
-            <img src="D:\Notepad++/a2games/down-arrow.png" alt="альтернативный текст" class="arrow">
+            <img src="Pictures/language.png" alt="альтернативный текст" class="lang">
+            <p class = "lang_log_p">English</p>
+            <img src="Pictures/down-arrow.png" alt="альтернативный текст" class="arrow">
+            <img src="Pictures/login.png" alt="альтернативный текст" class="login">
+            <p class = "lang_log_p">Login</p>
+            <img src="Pictures/down-arrow.png" alt="альтернативный текст" class="arrow">
         </div>
     </nav>
 </header>
 
-<nav class = "inBody" >
-    <div class = "secondNav">
+<nav class = "body-nav" >
+    <div class = "second-nav">
         <div class = "words">
             <ul class="second">
                 <li><a href="#">Discover</a></li>
                 <li><a href="#">Browse</a></li>
+            </ul>
         </div>
         <div class = "search">
-            <form class = "searchBar">
-                <button class = "searchButton"><img src="D:\Notepad++/a2games/search.png" alt="альтернативный текст" ></button>
+            <form class = "search-bar">
+                <button class = "search-button"><img src="Pictures/search.png" alt="альтернативный текст">
+                </button>
                 <input type="text" placeholder = "Search" name="search" id="search"></input>
             </form>
         </div>
-    </div>
     </div>
 </nav>
 
 <section class = "ads">
     <div class = "ad">
-        <a href = "#"><img src="D:\Notepad++\a2games/cyberpunk.png" alt="альтернативный текст"></a>
+        <a href = "#"><img src="Pictures/cyberpunk.png" alt="альтернативный текст"></a>
         <article class = "rtcl">
-            <div class = "circles" style = "margin-top: 10px">
+            <div class = "switch">
+            <div class = "circles">
                 <div>
-                    <img src="D:\Notepad++\a2games/lftArrow.png" alt="альтернативный текст" style = "height: 20px; margin-left: 10px;"></a>
-                    <img src="D:\Notepad++\a2games/rghtArrow.png" alt="альтернативный текст" style = "height: 20px; margin-left: 10px;"></a>
+                    <a><img src="Pictures/lftArrow.png" alt="альтернативный текст"
+                            class = "circles-and-arrows"></a>
+                    <a><img src="Pictures/rghtArrow.png" alt="альтернативный текст"
+                            class = "circles-and-arrows"></a>
                 </div>
                 <div>
-                    <img src="D:\Notepad++\a2games/circle.png" alt="альтернативный текст" style = "height: 20px;"></a>
-                    <img src="D:\Notepad++\a2games/circle.png" alt="альтернативный текст" style = "height: 20px;"></a>
-                    <img src="D:\Notepad++\a2games/circle.png" alt="альтернативный текст" style = "height: 20px;"></a>
-                    <img src="D:\Notepad++\a2games/circle.png" alt="альтернативный текст" style = "height: 20px;"></a>
-                    <img src="D:\Notepad++\a2games/circle.png" alt="альтернативный текст" style = "height: 20px;"></a>
+                    <a><img src="Pictures/circle.png" alt="альтернативный текст"
+                            class = "circles-and-arrows"></a>
+                    <a><img src="Pictures/circle.png" alt="альтернативный текст"
+                            class = "circles-and-arrows"></a>
+                    <a><img src="Pictures/circle.png" alt="альтернативный текст"
+                            class = "circles-and-arrows"></a>
+                    <a><img src="Pictures/circle.png" alt="альтернативный текст"
+                            class = "circles-and-arrows"></a>
+                    <a><img src="Pictures/circle.png" alt="альтернативный текст"
+                            class = "circles-and-arrows"></a>
                 </div>
             </div>
-            <div style = "margin-top: 30px; margin-left: 10px;">
-                <p style = "color: white; font-size: 20px; margin-top: 15px;">Pre-order now</p>
-                <p style = "font-size: 44px; margin-top: 15px;"><a href="#" style = "color: #EB5D2A;">Cyberpunk 2077</a></p>
-                <p style = "color: white; font-size: 20px; margin-top: 15px;">Brand new game from famous CDPR.
+            </div>
+            <div style = "margin-left: 10px;">
+                <p class = "ad-description">
+                    Pre-order now
+                </p>
+                <p style="margin-bottom: 15px">
+                    <a href="#">Cyberpunk 2077</a>
+                </p>
+                <p class = "ad-description">Brand new game from famous CDPR.
                     Explore an open-world, action-adventure story set in Night City,
                     a megalopolis obsessed with power, glamour and body modification.</p>
             </div>
@@ -71,11 +85,11 @@
     </div>
 </section>
 
-<section class = "topSellers">
+<section class = "top-sellers">
     <article class = "ts">
         <div class = "top">
             <div class = "fire">
-                <img src="D:\Notepad++\a2games/fire.png" alt="альтернативный текст">
+                <img src="Pictures/fire.png" alt="альтернативный текст">
                 <p style = "margin-left: 10px; font-size: 20px">Top Sellers</p>
             </div>
             <div class = "more">
@@ -85,10 +99,10 @@
         <div class = "bot">
             <div class = "game">
                 <div class = "pic">
-                    <a href="#"><img src="D:\Notepad++\a2games/HZDsize.png" alt="альтернативный текст"></a>
+                    <a href="#"><img src="Pictures/HZDsize.png" alt="альтернативный текст"></a>
                 </div>
                 <div class = "title">
-                    <a href="#"><p>Horizon: Zero Dawn. Complete Edition</p></a>
+                    <a href="#"><p class="title-p">Horizon: Zero Dawn. Complete Edition</p></a>
                 </div>
                 <div class = "price">
                     <a href="#"><p>RUB 2800.00</p></a>
@@ -96,10 +110,10 @@
             </div>
             <div class = "game">
                 <div class = "pic">
-                    <a href="#"><img src="D:\Notepad++\a2games/RDRsize.png" alt="альтернативный текст"></a>
+                    <a href="#"><img src="Pictures/RDRsize.png" alt="альтернативный текст"></a>
                 </div>
                 <div class = "title">
-                    <a href="#"><p>Red Dead Redemption II</p></a>
+                    <a href="#"><p class="title-p">Red Dead Redemption II</p></a>
                 </div>
                 <div class = "price">
                     <a href="#"><p>RUB 2499.00</p></a>
@@ -107,10 +121,10 @@
             </div>
             <div class = "game">
                 <div class = "pic">
-                    <a href="#"><img src="D:\Notepad++\a2games/DSsize.png" alt="альтернативный текст"></a>
+                    <a href="#"><img src="Pictures/DSsize.png" alt="альтернативный текст"></a>
                 </div>
                 <div class = "title">
-                    <a href="#"><p>Death Stranding</p></a>
+                    <a href="#"><p class="title-p">Death Stranding</p></a>
                 </div>
                 <div class = "price">
                     <a href="#"><p>RUB 3499.00</p></a>
@@ -118,10 +132,10 @@
             </div>
             <div class = "game">
                 <div class = "pic">
-                    <a href="#"><img src="D:\Notepad++\a2games/SpongeBobSize.png" alt="альтернативный текст"></a>
+                    <a href="#"><img src="Pictures/SpongeBobSize.png" alt="альтернативный текст"></a>
                 </div>
                 <div class = "title">
-                    <a href="#"><p>SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated</p></a>
+                    <a href="#"><p class="title-p">SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated</p></a>
                 </div>
                 <div class = "price">
                     <a href="#"><p>RUB 1529.00</p></a>
@@ -135,7 +149,7 @@
     <article class = "sale">
         <div class = "top">
             <div class = "fire">
-                <img src="D:\Notepad++\a2games/fire.png" alt="альтернативный текст">
+                <img src="Pictures/fire.png" alt="альтернативный текст">
                 <p style = "margin-left: 10px; font-size: 20px">Sale</p>
             </div>
             <div class = "more">
@@ -145,46 +159,46 @@
         <div class = "bot">
             <div class = "game">
                 <div class = "pic">
-                    <a href="#"><img src="D:\Notepad++\a2games/SWSsize.png" alt="альтернативный текст"></a>
+                    <a href="#"><img src="Pictures/SWSsize.png" alt="альтернативный текст"></a>
                 </div>
                 <div class = "title">
-                    <a href="#"><p>Star Wars: Squadrons</p></a>
+                    <a href="#"><p class="title-p">Star Wars: Squadrons</p></a>
                 </div>
                 <div class = "price">
-                    <p style = "text-decoration:line-through">RUB 3500.00</p><a href="#"><p style = "color:#EB5D2A; padding-left: 10px;">RUB 1400.00</p></a>
+                    <p class = "old-price">RUB 3500.00</p><a href="#"><p class = "new-price">RUB 1400.00</p></a>
                 </div>
             </div>
             <div class = "game">
                 <div class = "pic">
-                    <a href="#"><img src="D:\Notepad++\a2games/SMITEsize.png" alt="альтернативный текст"></a>
+                    <a href="#"><img src="Pictures/SMITEsize.png" alt="альтернативный текст"></a>
                 </div>
                 <div class = "title">
-                    <a href="#"><p>SMITE x Avatar Bundle</p></a>
+                    <a href="#"><p class="title-p">SMITE x Avatar Bundle</p></a>
                 </div>
                 <div class = "price">
-                    <p style = "text-decoration:line-through">RUB 3600.00</p><a href="#"><p style = "color:#EB5D2A; padding-left: 10px;">RUB 95.00</p></a>
+                    <p class = "old-price">RUB 3600.00</p><a href="#"><p class = "new-price">RUB 95.00</p></a>
                 </div>
             </div>
             <div class = "game">
                 <div class = "pic">
-                    <a href="#"><img src="D:\Notepad++\a2games/WWZsize.png" alt="альтернативный текст"></a>
+                    <a href="#"><img src="Pictures/WWZsize.png" alt="альтернативный текст"></a>
                 </div>
                 <div class = "title">
-                    <a href="#"><p>World War Z</p></a>
+                    <a href="#"><p class="title-p">World War Z</p></a>
                 </div>
                 <div class = "price">
-                    <p style = "text-decoration:line-through">RUB 2300.00</p><a href="#"><p style = "color:#EB5D2A; padding-left: 10px;">RUB 980.00</p></a>
+                    <p class = "old-price">RUB 2300.00</p><a href="#"><p class = "new-price">RUB 980.00</p></a>
                 </div>
             </div>
             <div class = "game">
                 <div class = "pic">
-                    <a href="#"><img src="D:\Notepad++\a2games/CIV6size.png" alt="альтернативный текст"></a>
+                    <a href="#"><img src="Pictures/CIV6size.png" alt="альтернативный текст"></a>
                 </div>
                 <div class = "title">
-                    <a href="#"><p>Sid Meier’s Civilization VI: Platinum Edition Upgrade</p></a>
+                    <a href="#"><p class="title-p">Sid Meier’s Civilization VI: Platinum Edition Upgrade</p></a>
                 </div>
                 <div class = "price">
-                    <p style = "text-decoration:line-through">RUB 3900.00</p><a href="#"><p style = "color:#EB5D2A; padding-left: 10px;">RUB 2400.00</p></a>
+                    <p class = "old-price">RUB 3900.00</p><a href="#"><p class = "new-price">RUB 2400.00</p></a>
                 </div>
             </div>
         </div>

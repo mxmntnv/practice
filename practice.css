@@ -2,14 +2,13 @@ body {
 	width: 100%;
 	height: 2160px;
 	display: block;
-    margin-left: 0px;
-    margin-top: 0px;	
-    margin-bottom: 0px;
-    margin-right: 0px;
+	margin: 0px;
 	font-family: Roboto;
 }
 
-p {margin: 0px;}
+p {
+	margin: 0px;
+}
 
 header a { 
 		color: #FFFFFF;
@@ -38,7 +37,7 @@ nav {
 			font-size: 24px;
 		}
 
-.inHeader {
+.header-nav {
 			display: flex;
 			justify-content: left;
 			align-items: center;
@@ -68,6 +67,11 @@ nav {
 	margin-left: 110%;
 }
 
+.lang_log_p {
+	color: #ffffff;
+	padding-left: 5px;
+}
+
 .arrow {
 	padding-left: 5px;
 }
@@ -76,21 +80,21 @@ nav {
 	padding-left: 15px;
 }
 
-.inBody {
+.body-nav {
 	height: 118px;
 	width: 100%;
 	display: flex;
 	align-items: center;
 }
 
-.secondNav {
+.second-nav {
 	width: 1152px;
     height: 40px;
     justify-content: space-between;
     display: flex;
 }
 
-.secondNav a { 
+.second-nav a {
 		color: #1C162E;
 		text-decoration: none;
 	   }
@@ -132,7 +136,7 @@ ul.second {
 	border: none;
 }
 
-.searchButton {
+.search-button {
 	display: inline-block;
 	width: 20px;
 	height:20px;
@@ -151,12 +155,10 @@ ul.second {
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	margin-bottom: 118px;
 }
 
-.ads a {
-	color: #fff;
-	text-decoration: none;
-}
+
 
 .ad {
 	display: inline-flex;
@@ -174,25 +176,54 @@ ul.second {
 	
 }
 
+.switch {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 60px;
+	margin-bottom: 15px;
+}
+
+.circles-and-arrows {
+	height: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
 .circles {
-	width: 440px;
+	padding-right: 10px;
+	padding-left: 10px;
 	justify-content: space-between;
     display: flex;
 	align-items: center;
+	width: 90%;
 }
 
-.searchBar {
+.ad a {
+	font-size: 44px;
+	color: #EB5D2A;
+	text-decoration: none;
+}
+
+.ad-description {
+	color: white;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.search-bar {
 	display: inline-flex;
 }
 
-.topSellers {
-	margin-top: 118px;
+.top-sellers {
 	height: 570px;
 	display: flex;
 	justify-content: center;
+	margin-bottom: 118px;
 }
 
-.topSellers a {
+.top-sellers a {
 	color: #313131;
 	text-decoration: none;
 }
@@ -268,9 +299,15 @@ ul.second {
 .title {
 	height: 28px;
 	width: 256px;
-	display: flex;
+	display: block;
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: left;
+}
+
+.title-p{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .price
@@ -283,7 +320,7 @@ ul.second {
 }
 
 .Sale {
-	margin-top: 118px;
+	margin-bottom: 115px;
 	height: 570px;
 	display: flex;
 	justify-content: center;
@@ -306,9 +343,17 @@ ul.second {
 	text-decoration: none;
 }
 
+.old-price {
+	text-decoration:line-through
+}
+
+.new-price {
+	color:#EB5D2A;
+	padding-left: 10px;
+}
+
 footer {
 	height: 148px;
-    margin-top: 115px;
     background-color: #1C162E;
 	display: flex;
 	align-items: center;
